@@ -24,7 +24,7 @@ export const NavItem = ({ href, icon, label, active }: Props) => {
       } hover:opacity-100`}
     >
       <FontAwesomeIcon icon={icon} className="size-6" />
-      {label}
+      <div className="text-lg">{label}</div>
     </Link>
   );
 };
