@@ -6,7 +6,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import { HomeMenu } from "./home-menu";
 
-export const Header = () => {
+export const HomeHeader = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   const handleShowMenu = (state: boolean) => {

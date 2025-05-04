@@ -1,9 +1,11 @@
-import { Header } from "@/components/home/header";
+import { HomeHeader } from "@/components/home/header";
+import { TweetPost } from "@/components/tweet/tweet-post";
 
 export default function Home() {
   return (
     <div>
-      <Header />
+      <HomeHeader />
+      <TweetPost />
     </div>
   );
 }
